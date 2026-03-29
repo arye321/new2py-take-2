@@ -1,0 +1,1 @@
+import"./style-CXd576N6.js";let e=0;const t=document.querySelector("#action-btn");t.addEventListener("click",()=>{e++,t.innerText=`Interactions: ${e}`,t.style.transform="scale(0.95)",setTimeout(()=>{t.style.transform="translateY(-2px)"},100)});
